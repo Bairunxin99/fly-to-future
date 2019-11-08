@@ -1,27 +1,24 @@
-# Fingertip
+# 指尖-Fingertip项目
+##写在前面
+    2019.11.08,立冬
+        指尖项目二期在此开始
+            1.采用Angular框架,用AngularCLi创建好项目文件初始目录
+            2.git版本仓库建立,并纳入初期初始化代码
+            3.创建主分支ft_up;创建开发分支ft_dev
+            4.创建项目描述文件(本文件)
+        一切刚刚开,多余的话不说,引用我们冯工的一句话:
+            "需知少时凌云志，曾许人间第一流"
+        有少时凌云志,但万事要落地,这样才实在,所以冯又说:
+            "劝君立足眼前事，荆棘业中也开花"
+    启航,破浪,穿越长夜......
+##目录说明
+    暂无
+##部署相关
+    -dist   -----打包后的文件(ng build 打包) 备注:暂无 
+    
+    
+    
+    
+###三年后,我希望我能敲出省略号后面的话:
+    漫漫长夜在身后,显得眼前的红日那么......
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
