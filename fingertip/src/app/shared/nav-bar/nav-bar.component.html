@@ -1,0 +1,9 @@
+<Navbar [icon]="icon" [rightContent]="rightContent" [mode]="'light'" (onLeftClick)="onLeftClick()">
+  标题{{title}}
+</Navbar>
+<ng-template #icon>
+  <Icon [type]="'left'"></Icon>
+</ng-template>
+<ng-template #rightContent>
+  <Icon [type]="'ellipsis'"></Icon>
+</ng-template>

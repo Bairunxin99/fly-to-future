@@ -7,11 +7,21 @@ import { NgZorroAntdMobileModule } from 'ng-zorro-antd-mobile';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TabBarComponent } from './shared/tab-bar/tab-bar.component';
+import { WorksComponent } from './modules/works/works.component';
+import { DatasComponent } from './modules/datas/datas.component';
+import { CommunityComponent } from './modules/community/community.component';
+import { PersonalComponent } from './modules/personal/personal.component';
+import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TabBarComponent
+    TabBarComponent,
+    WorksComponent,
+    DatasComponent,
+    CommunityComponent,
+    PersonalComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

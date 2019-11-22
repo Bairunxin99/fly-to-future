@@ -8,7 +8,7 @@
   [tabBarPosition]="'bottom'"
   (onPress)="tabBarTabOnPress($event)"
 >
-  <TabBarItem [title]="'工作区'" [key]="1" [icon]="icon1" [selectedIcon]="icon11">
+  <TabBarItem [title]="'工作'" [key]="1" [icon]="icon1" [selectedIcon]="icon11">
     <ng-template #icon1>
       <div
         style="width:22px;height: 22px;background: url('https://zos.alipayobjects.com/rmsportal/sifuoDUQdAFKAVcFGROC.svg') center center / 21px 21px no-repeat;"
@@ -20,13 +20,10 @@
       ></div>
     </ng-template>
     <div style="background-color: white; height: 100%; text-align: center">
-      <div style="padding-top: 60px">点击工作区显示的内容</div>
-      <ng-container>
-        <ng-template [ngTemplateOutlet]="content"></ng-template>
-      </ng-container>
+      <app-works></app-works>
     </div>
   </TabBarItem>
-  <TabBarItem [title]="'历史数据'" [key]="2" [icon]="icon2" [selectedIcon]="icon22">
+  <TabBarItem [title]="'数据'" [key]="2" [icon]="icon2" [selectedIcon]="icon22">
     <ng-template #icon2>
       <div
         style="width:22px;height: 22px;background: url('https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg') center center / 21px 21px no-repeat;"
@@ -38,13 +35,25 @@
       ></div>
     </ng-template>
     <div style="background-color: white; height: 100%; text-align: center">
-      <div style="padding-top: 60px">点击历史数据显示的内容</div>
-      <ng-container>
-        <ng-template [ngTemplateOutlet]="content"></ng-template>
-      </ng-container>
+      <app-datas></app-datas>
     </div>
   </TabBarItem>
-  <TabBarItem [title]="'我的'" [key]="3" [icon]="icon3" [selectedIcon]="icon33">
+  <TabBarItem [title]="'社区'" [key]="3" [icon]="icon2" [selectedIcon]="icon22">
+    <ng-template #icon2>
+      <div
+        style="width:22px;height: 22px;background: url('https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg') center center / 21px 21px no-repeat;"
+      ></div>
+    </ng-template>
+    <ng-template #icon22>
+      <div
+        style="width:22px;height: 22px;background: url('https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg') center center / 21px 21px no-repeat;"
+      ></div>
+    </ng-template>
+    <div style="background-color: white; height: 100%; text-align: center">
+      <app-community></app-community>
+    </div>
+  </TabBarItem>
+  <TabBarItem [title]="'我的'" [key]="4" [icon]="icon3" [selectedIcon]="icon33">
     <ng-template #icon3>
       <div
         style="width:22px;height: 22px;background: url('https://zos.alipayobjects.com/rmsportal/psUFoAMjkCcjqtUCNPxB.svg') center center / 21px 21px no-repeat;"
@@ -56,10 +65,7 @@
       ></div>
     </ng-template>
     <div style="background-color: white; height: 100%; text-align: center">
-      <div style="padding-top: 60px">点击我的显示的内容</div>
-      <ng-container>
-        <ng-template [ngTemplateOutlet]="content"></ng-template>
-      </ng-container>
+      <app-personal></app-personal>
     </div>
   </TabBarItem>
 
