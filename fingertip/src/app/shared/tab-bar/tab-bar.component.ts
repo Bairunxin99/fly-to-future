@@ -10,7 +10,7 @@ export class TabBarComponent implements OnInit {
   tintColor = '#108ee9';
   unselectedTintColor = '#888';
   tabbarStyle: object = { height: '100vh' };
-  selectedIndex = 1;
+  selectedIndex = 0;
   tabBarTabOnPress(pressParam: any) {
     console.log('onPress Params: ', pressParam);
     this.selectedIndex = pressParam.index;
